@@ -1,0 +1,57 @@
+plugins {
+    id 'org.springframework.boot' version '2.1.3.RELEASE'
+    id 'java'
+}
+
+apply plugin: 'io.spring.dependency-management'
+apply plugin: 'war'
+group = 'com'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '1.8'
+
+bootJar {
+    enabled = true
+    baseName = 'htweb'
+    version = '0.0.1-SNAPSHOT'
+}
+
+//在打jar的时候必须把webapp目录下的文件拷贝到META-INF/resources下
+bootJar.into('META-INF/resources') {
+    from('src/main/webapp')
+}
+war{
+    baseName = 'htweb'
+    version = '0.0.1-SNAPSHOT'
+}
+war.into('META-INF/resources') {
+    from('src/main/webapp')
+}
+
+
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        implementation 'org.springframework.boot:spring-boot-starter-web'
+        testImplementation 'org.springframework.boot:spring-boot-starter-test'
+        compile group: 'org.apache.tomcat.embed', name: 'tomcat-embed-jasper', version: '9.0.16'
+        compile group: 'org.springframework.boot', name: 'spring-boot-devtools', version: '2.1.3.RELEASE'
+        compile group: 'org.springframework', name: 'springloaded', version: '1.2.3.RELEASE'
+       // compile group: 'org.springframework.boot', name: 'spring-boot-gradle-plugin', version: '1.5.5.RELEASE'
+
+    }
+
+//buildscript {
+//    repositories {
+//        mavenLocal()
+//        maven { url "http://*.*.*.*:*/nexus/content/groups/public/" }
+//    }
+//    dependencies {
+//        classpath("org.springframework.boot:spring-boot-gradle-plugin:1.5.4.RELEASE")
+//    }
+//}
+//
+//
+//apply plugin: 'java'
+//apply plugin: 'org.springframework.boot'

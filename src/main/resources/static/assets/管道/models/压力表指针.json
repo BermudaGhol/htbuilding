@@ -1,0 +1,8 @@
+{
+  "modelType": "obj",
+  "obj": "assets/管道/压力表指针.obj",
+  "mtl": "assets/管道/压力表指针.mtl",
+  "reverseFlipMtls": "*",
+  "image": "",
+  "prefix": "assets/管道/"
+}

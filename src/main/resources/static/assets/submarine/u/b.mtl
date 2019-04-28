@@ -1,0 +1,46 @@
+# OBJ Material Export by Luxion KeyShot
+
+newmtl 不锈钢拉丝 linear brushed stainless
+Kd 0.5 0.5 0.5
+
+newmtl 橡胶 Rubber
+Kd 0.01 0.01 0.01
+Ks 0.9 0.9 0.9
+
+newmtl 油漆磨砂暗焦茶色 Paint mattle dark umber
+Kd 0.184314 0.152941 0.113725
+Ks 0 0 0
+
+newmtl 不锈钢拉丝 linear brushed stainless #1
+Kd 0.5 0.5 0.5
+
+newmtl 坚硬粗糙塑料暗焦茶色 Hard rough plastic dark umber
+Kd 0.184314 0.152941 0.113725
+Ks 0.992157 0.992157 0.992157
+
+newmtl 油漆抛光红色 Paint Gloss Red
+Kd 0.599999 0.0180002 0.0277019
+Ks 0 0 0
+
+newmtl 碳素纤维基础 Carbon fiber basic
+Kd 0.0196078 0.0196078 0.0196078
+Ks 1 1 1
+
+newmtl 油漆金属黑色 Paint Metallic Black
+Kd 0.0117647 0.0117647 0.0117647
+Ks 0.0147059 0.0147059 0.0147059
+
+newmtl 皮革白色 Leather White #1
+Kd 0.850004 0.850004 0.850004
+Ks 0 0 0
+
+newmtl 不锈钢CD纹 radial brushed stainless
+Kd 0.5 0.5 0.5
+
+newmtl 油漆抛光黄色 Paint Gloss Yellow
+Kd 0.98 0.840351 0.0489933
+Ks 0 0 0
+
+newmtl 皮革白色 Leather White #2
+Kd 0.850004 0.850004 0.850004
+Ks 0 0 0

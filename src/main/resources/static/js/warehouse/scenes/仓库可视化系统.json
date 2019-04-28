@@ -1,0 +1,2598 @@
+{
+  "v": "6.2.8",
+  "p": {
+    "background": "rgb(0,0,0)",
+    "envmap": "assets/贴图/环境光/天空.jpg",
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true,
+    "postProcessingData": {
+      "Bloom": {
+        "enable": true,
+        "strength": 0.2,
+        "threshold": 0.33,
+        "radius": 0.4
+      }
+    }
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 327,
+      "p": {
+        "position": {
+          "x": 62.72917,
+          "y": 109.81681
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.1,
+          "y": 0.1
+        },
+        "scaleTall": 0.1,
+        "width": 485.74548,
+        "height": 48.0508
+      },
+      "s": {
+        "shape3d": "js/warehouse/models/外景配饰/方-灌木丛.json",
+        "wf.visible": "selected",
+        "shape3d.reverse.cull": true,
+        "envmap": 0.2,
+        "wf.short": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 328,
+      "p": {
+        "position": {
+          "x": 22.50299,
+          "y": 132.82646
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.03,
+          "y": 0.03
+        },
+        "scaleTall": 0.03,
+        "elevation": 0.47254
+      },
+      "s": {
+        "shape3d": "js/warehouse/models/外景配饰/圆-灌木丛.json",
+        "wf.visible": "selected",
+        "2d.movable": false,
+        "3d.movable": false,
+        "envmap": 0.2,
+        "wf.short": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 329,
+      "p": {
+        "parent": {
+          "__i": 328
+        },
+        "host": {
+          "__i": 328
+        },
+        "position": {
+          "x": 22.50299,
+          "y": 161.49302
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.03,
+          "y": 0.03
+        },
+        "scaleTall": 0.03,
+        "elevation": 0.47254
+      },
+      "s": {
+        "shape3d": "js/warehouse/models/外景配饰/圆-灌木丛.json",
+        "wf.visible": "selected",
+        "envmap": 0.2,
+        "wf.short": true,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 330,
+      "p": {
+        "parent": {
+          "__i": 328
+        },
+        "host": {
+          "__i": 328
+        },
+        "position": {
+          "x": 22.50299,
+          "y": 190.15959
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.03,
+          "y": 0.03
+        },
+        "scaleTall": 0.03,
+        "elevation": 0.47254
+      },
+      "s": {
+        "shape3d": "js/warehouse/models/外景配饰/圆-灌木丛.json",
+        "wf.visible": "selected",
+        "envmap": 0.2,
+        "wf.short": true,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 331,
+      "p": {
+        "parent": {
+          "__i": 328
+        },
+        "host": {
+          "__i": 328
+        },
+        "position": {
+          "x": 22.50299,
+          "y": 218.82615
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.03,
+          "y": 0.03
+        },
+        "scaleTall": 0.03,
+        "elevation": 0.47254
+      },
+      "s": {
+        "shape3d": "js/warehouse/models/外景配饰/圆-灌木丛.json",
+        "wf.visible": "selected",
+        "envmap": 0.2,
+        "wf.short": true,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 332,
+      "p": {
+        "parent": {
+          "__i": 328
+        },
+        "host": {
+          "__i": 328
+        },
+        "position": {
+          "x": -44.63586,
+          "y": 132.82646
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.03,
+          "y": 0.03
+        },
+        "scaleTall": 0.03,
+        "elevation": 0.47254
+      },
+      "s": {
+        "shape3d": "js/warehouse/models/外景配饰/圆-灌木丛.json",
+        "wf.visible": "selected",
+        "envmap": 0.2,
+        "wf.short": true,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 333,
+      "p": {
+        "parent": {
+          "__i": 332
+        },
+        "host": {
+          "__i": 332
+        },
+        "position": {
+          "x": -44.63586,
+          "y": 161.49302
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.03,
+          "y": 0.03
+        },
+        "scaleTall": 0.03,
+        "elevation": 0.47254
+      },
+      "s": {
+        "shape3d": "js/warehouse/models/外景配饰/圆-灌木丛.json",
+        "wf.visible": "selected",
+        "envmap": 0.2,
+        "wf.short": true,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 334,
+      "p": {
+        "parent": {
+          "__i": 332
+        },
+        "host": {
+          "__i": 332
+        },
+        "position": {
+          "x": -44.63586,
+          "y": 190.15959
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.03,
+          "y": 0.03
+        },
+        "scaleTall": 0.03,
+        "elevation": 0.47254
+      },
+      "s": {
+        "shape3d": "js/warehouse/models/外景配饰/圆-灌木丛.json",
+        "wf.visible": "selected",
+        "envmap": 0.2,
+        "wf.short": true,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 335,
+      "p": {
+        "parent": {
+          "__i": 332
+        },
+        "host": {
+          "__i": 332
+        },
+        "position": {
+          "x": -44.63586,
+          "y": 218.82615
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.03,
+          "y": 0.03
+        },
+        "scaleTall": 0.03,
+        "elevation": 0.47254
+      },
+      "s": {
+        "shape3d": "js/warehouse/models/外景配饰/圆-灌木丛.json",
+        "wf.visible": "selected",
+        "envmap": 0.2,
+        "wf.short": true,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 336,
+      "p": {
+        "displayName": "环境球",
+        "tag": "skyBox",
+        "rotation": 0.80285,
+        "width": 8000,
+        "height": 8000,
+        "tall": 8000
+      },
+      "s": {
+        "shape3d": "sphere",
+        "shape3d.color": "#DDDDDD",
+        "shape3d.reverse.flip": true,
+        "shape3d.image": "assets/贴图/天空球/天空球1.jpg",
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 337,
+      "p": {
+        "displayName": "地板",
+        "position": {
+          "x": 0,
+          "y": -61.83648
+        },
+        "anchorElevation": 0,
+        "width": 1765,
+        "height": 1765,
+        "tall": 10,
+        "elevation": -7
+      },
+      "s": {
+        "shape3d": "cylinder",
+        "shape3d.color": "rgba(107,107,107,0.26)",
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "shape3d.side": 6,
+        "shape3d.top.uv.scale": [
+          64,
+          64
+        ],
+        "all.color": "rgba(186,186,186,0.51)",
+        "all.reverse.cull": true,
+        "bottom.visible": false,
+        "all.transparent": true,
+        "shape3d.transparent": true,
+        "shape3d.reverse.cull": true,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 338,
+      "p": {
+        "position": {
+          "x": -514.33885,
+          "y": -70.22647
+        },
+        "anchorElevation": 0,
+        "elevation": 1.33962
+      },
+      "s": {
+        "shape3d": "js/warehouse/models/工业外景/厂房1.json",
+        "wf.visible": "selected",
+        "envmap": 0.2,
+        "wf.short": true,
+        "2d.movable": false,
+        "3d.movable": false
+      },
+      "a": {
+        "type": "breeding"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 339,
+      "p": {
+        "parent": {
+          "__i": 338
+        },
+        "host": {
+          "__i": 338
+        },
+        "position": {
+          "x": -514.33885,
+          "y": -155.86262
+        },
+        "anchorElevation": 0,
+        "elevation": 1.33962
+      },
+      "s": {
+        "shape3d": "js/warehouse/models/工业外景/厂房1.json",
+        "wf.visible": "selected",
+        "2d.movable": false,
+        "3d.movable": false,
+        "envmap": 0.2,
+        "wf.short": true
+      },
+      "a": {
+        "type": "breeding"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 340,
+      "p": {
+        "parent": {
+          "__i": 338
+        },
+        "host": {
+          "__i": 338
+        },
+        "position": {
+          "x": -392.98117,
+          "y": -155.86262
+        },
+        "anchorElevation": 0,
+        "elevation": 1.33962
+      },
+      "s": {
+        "shape3d": "js/warehouse/models/工业外景/厂房1.json",
+        "wf.visible": "selected",
+        "envmap": 0.2,
+        "wf.short": true,
+        "2d.movable": false,
+        "3d.movable": false
+      },
+      "a": {
+        "type": "breeding"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 341,
+      "p": {
+        "parent": {
+          "__i": 338
+        },
+        "host": {
+          "__i": 338
+        },
+        "position": {
+          "x": -392.98117,
+          "y": -70.22647
+        },
+        "anchorElevation": 0,
+        "elevation": 1.33962
+      },
+      "s": {
+        "shape3d": "js/warehouse/models/工业外景/厂房1.json",
+        "wf.visible": "selected",
+        "envmap": 0.2,
+        "wf.short": true,
+        "2d.movable": false,
+        "3d.movable": false
+      },
+      "a": {
+        "type": "breeding"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 342,
+      "p": {
+        "position": {
+          "x": -514.33885,
+          "y": 78.96415
+        },
+        "anchorElevation": 0,
+        "elevation": 1.33962
+      },
+      "s": {
+        "shape3d": "js/warehouse/models/工业外景/厂房1.json",
+        "wf.visible": "selected",
+        "envmap": 0.2,
+        "wf.short": true,
+        "2d.movable": false,
+        "3d.movable": false
+      },
+      "a": {
+        "type": "breeding"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 343,
+      "p": {
+        "parent": {
+          "__i": 342
+        },
+        "host": {
+          "__i": 342
+        },
+        "position": {
+          "x": -392.98117,
+          "y": 78.96415
+        },
+        "anchorElevation": 0,
+        "elevation": 1.33962
+      },
+      "s": {
+        "shape3d": "js/warehouse/models/工业外景/厂房1.json",
+        "wf.visible": "selected",
+        "envmap": 0.2,
+        "wf.short": true,
+        "2d.movable": false,
+        "3d.movable": false
+      },
+      "a": {
+        "type": "breeding"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 344,
+      "p": {
+        "position": {
+          "x": 205.03411,
+          "y": -239.9638
+        },
+        "anchorElevation": 0,
+        "elevation": 1.33962
+      },
+      "s": {
+        "shape3d": "js/warehouse/models/工业外景/厂房1.json",
+        "wf.visible": "selected",
+        "envmap": 0.2,
+        "wf.short": true,
+        "2d.movable": false,
+        "3d.movable": false
+      },
+      "a": {
+        "type": "incubator"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 345,
+      "p": {
+        "parent": {
+          "__i": 344
+        },
+        "host": {
+          "__i": 344
+        },
+        "position": {
+          "x": 83.67643,
+          "y": -76.39719
+        },
+        "anchorElevation": 0,
+        "elevation": 1.33962
+      },
+      "s": {
+        "shape3d": "js/warehouse/models/工业外景/厂房1.json",
+        "wf.visible": "selected",
+        "envmap": 0.2,
+        "wf.short": true,
+        "2d.movable": false,
+        "3d.movable": false
+      },
+      "a": {
+        "type": "incubator"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 346,
+      "p": {
+        "parent": {
+          "__i": 344
+        },
+        "host": {
+          "__i": 344
+        },
+        "position": {
+          "x": 83.67643,
+          "y": 5.38611
+        },
+        "anchorElevation": 0,
+        "elevation": 1.33962
+      },
+      "s": {
+        "shape3d": "js/warehouse/models/工业外景/厂房1.json",
+        "wf.visible": "selected",
+        "envmap": 0.2,
+        "wf.short": true,
+        "2d.movable": false,
+        "3d.movable": false
+      },
+      "a": {
+        "type": "incubator"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 347,
+      "p": {
+        "parent": {
+          "__i": 344
+        },
+        "host": {
+          "__i": 344
+        },
+        "position": {
+          "x": 205.03411,
+          "y": -76.39719
+        },
+        "anchorElevation": 0,
+        "elevation": 1.33962
+      },
+      "s": {
+        "shape3d": "js/warehouse/models/工业外景/厂房1.json",
+        "wf.visible": "selected",
+        "envmap": 0.2,
+        "wf.short": true,
+        "2d.movable": false,
+        "3d.movable": false
+      },
+      "a": {
+        "type": "incubator"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 348,
+      "p": {
+        "parent": {
+          "__i": 344
+        },
+        "host": {
+          "__i": 344
+        },
+        "position": {
+          "x": 205.03411,
+          "y": 5.38611
+        },
+        "anchorElevation": 0,
+        "elevation": 1.33962
+      },
+      "s": {
+        "shape3d": "js/warehouse/models/工业外景/厂房1.json",
+        "wf.visible": "selected",
+        "envmap": 0.2,
+        "wf.short": true,
+        "2d.movable": false,
+        "3d.movable": false
+      },
+      "a": {
+        "type": "incubator"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 349,
+      "p": {
+        "parent": {
+          "__i": 344
+        },
+        "host": {
+          "__i": 344
+        },
+        "position": {
+          "x": 83.67643,
+          "y": -309.64122
+        },
+        "anchorElevation": 0,
+        "elevation": 1.33962
+      },
+      "s": {
+        "shape3d": "js/warehouse/models/工业外景/厂房1.json",
+        "wf.visible": "selected",
+        "envmap": 0.2,
+        "wf.short": true,
+        "2d.movable": false,
+        "3d.movable": false
+      },
+      "a": {
+        "type": "incubator"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 350,
+      "p": {
+        "parent": {
+          "__i": 344
+        },
+        "host": {
+          "__i": 344
+        },
+        "position": {
+          "x": 205.03411,
+          "y": -309.64122
+        },
+        "anchorElevation": 0,
+        "elevation": 1.33962
+      },
+      "s": {
+        "shape3d": "js/warehouse/models/工业外景/厂房1.json",
+        "wf.visible": "selected",
+        "envmap": 0.2,
+        "wf.short": true,
+        "2d.movable": false,
+        "3d.movable": false
+      },
+      "a": {
+        "type": "incubator"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 351,
+      "p": {
+        "parent": {
+          "__i": 344
+        },
+        "host": {
+          "__i": 344
+        },
+        "position": {
+          "x": 357.82872,
+          "y": -76.39719
+        },
+        "anchorElevation": 0,
+        "elevation": 1.33962
+      },
+      "s": {
+        "shape3d": "js/warehouse/models/工业外景/厂房1.json",
+        "wf.visible": "selected",
+        "envmap": 0.2,
+        "wf.short": true,
+        "2d.movable": false,
+        "3d.movable": false
+      },
+      "a": {
+        "type": "incubator"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 352,
+      "p": {
+        "parent": {
+          "__i": 344
+        },
+        "host": {
+          "__i": 344
+        },
+        "position": {
+          "x": 357.82872,
+          "y": 5.38611
+        },
+        "anchorElevation": 0,
+        "elevation": 1.33962
+      },
+      "s": {
+        "shape3d": "js/warehouse/models/工业外景/厂房1.json",
+        "wf.visible": "selected",
+        "envmap": 0.2,
+        "wf.short": true,
+        "2d.movable": false,
+        "3d.movable": false
+      },
+      "a": {
+        "type": "incubator"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 353,
+      "p": {
+        "parent": {
+          "__i": 344
+        },
+        "host": {
+          "__i": 344
+        },
+        "position": {
+          "x": 479.1864,
+          "y": -76.39719
+        },
+        "anchorElevation": 0,
+        "elevation": 1.33962
+      },
+      "s": {
+        "shape3d": "js/warehouse/models/工业外景/厂房1.json",
+        "wf.visible": "selected",
+        "envmap": 0.2,
+        "wf.short": true,
+        "2d.movable": false,
+        "3d.movable": false
+      },
+      "a": {
+        "type": "incubator"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 354,
+      "p": {
+        "parent": {
+          "__i": 344
+        },
+        "host": {
+          "__i": 344
+        },
+        "position": {
+          "x": 479.1864,
+          "y": 5.38611
+        },
+        "anchorElevation": 0,
+        "elevation": 1.33962
+      },
+      "s": {
+        "shape3d": "js/warehouse/models/工业外景/厂房1.json",
+        "wf.visible": "selected",
+        "envmap": 0.2,
+        "wf.short": true,
+        "2d.movable": false,
+        "3d.movable": false
+      },
+      "a": {
+        "type": "incubator"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 355,
+      "p": {
+        "parent": {
+          "__i": 344
+        },
+        "host": {
+          "__i": 344
+        },
+        "position": {
+          "x": 357.82872,
+          "y": -239.9638
+        },
+        "anchorElevation": 0,
+        "elevation": 1.33962
+      },
+      "s": {
+        "shape3d": "js/warehouse/models/工业外景/厂房1.json",
+        "wf.visible": "selected",
+        "envmap": 0.2,
+        "wf.short": true,
+        "2d.movable": false,
+        "3d.movable": false
+      },
+      "a": {
+        "type": "incubator"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 356,
+      "p": {
+        "parent": {
+          "__i": 344
+        },
+        "host": {
+          "__i": 344
+        },
+        "position": {
+          "x": 357.82872,
+          "y": -158.1805
+        },
+        "anchorElevation": 0,
+        "elevation": 1.33962
+      },
+      "s": {
+        "shape3d": "js/warehouse/models/工业外景/厂房1.json",
+        "wf.visible": "selected",
+        "envmap": 0.2,
+        "wf.short": true,
+        "2d.movable": false,
+        "3d.movable": false
+      },
+      "a": {
+        "type": "incubator"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 357,
+      "p": {
+        "parent": {
+          "__i": 344
+        },
+        "host": {
+          "__i": 344
+        },
+        "position": {
+          "x": 479.1864,
+          "y": -239.9638
+        },
+        "anchorElevation": 0,
+        "elevation": 1.33962
+      },
+      "s": {
+        "shape3d": "js/warehouse/models/工业外景/厂房1.json",
+        "wf.visible": "selected",
+        "envmap": 0.2,
+        "wf.short": true,
+        "2d.movable": false,
+        "3d.movable": false
+      },
+      "a": {
+        "type": "incubator"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 358,
+      "p": {
+        "parent": {
+          "__i": 344
+        },
+        "host": {
+          "__i": 344
+        },
+        "position": {
+          "x": 479.1864,
+          "y": -158.1805
+        },
+        "anchorElevation": 0,
+        "elevation": 1.33962
+      },
+      "s": {
+        "shape3d": "js/warehouse/models/工业外景/厂房1.json",
+        "wf.visible": "selected",
+        "envmap": 0.2,
+        "wf.short": true,
+        "2d.movable": false,
+        "3d.movable": false
+      },
+      "a": {
+        "type": "incubator"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 359,
+      "p": {
+        "parent": {
+          "__i": 344
+        },
+        "host": {
+          "__i": 344
+        },
+        "position": {
+          "x": 83.67643,
+          "y": -239.9638
+        },
+        "anchorElevation": 0,
+        "elevation": 1.33962
+      },
+      "s": {
+        "shape3d": "js/warehouse/models/工业外景/厂房1.json",
+        "wf.visible": "selected",
+        "envmap": 0.2,
+        "wf.short": true,
+        "2d.movable": false,
+        "3d.movable": false
+      },
+      "a": {
+        "type": "incubator"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 360,
+      "p": {
+        "parent": {
+          "__i": 344
+        },
+        "host": {
+          "__i": 344
+        },
+        "position": {
+          "x": 83.67643,
+          "y": -158.1805
+        },
+        "anchorElevation": 0,
+        "elevation": 1.33962
+      },
+      "s": {
+        "shape3d": "js/warehouse/models/工业外景/厂房1.json",
+        "wf.visible": "selected",
+        "envmap": 0.2,
+        "wf.short": true,
+        "2d.movable": false,
+        "3d.movable": false
+      },
+      "a": {
+        "type": "incubator"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 361,
+      "p": {
+        "parent": {
+          "__i": 344
+        },
+        "host": {
+          "__i": 344
+        },
+        "position": {
+          "x": 205.03411,
+          "y": -158.1805
+        },
+        "anchorElevation": 0,
+        "elevation": 1.33962
+      },
+      "s": {
+        "shape3d": "js/warehouse/models/工业外景/厂房1.json",
+        "wf.visible": "selected",
+        "envmap": 0.2,
+        "wf.short": true,
+        "2d.movable": false,
+        "3d.movable": false
+      },
+      "a": {
+        "type": "incubator"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 362,
+      "p": {
+        "position": {
+          "x": -268.92089,
+          "y": 171.70085
+        },
+        "anchorElevation": 0,
+        "elevation": 1.33962
+      },
+      "s": {
+        "shape3d": "js/warehouse/models/工业外景/厂房1.json",
+        "wf.visible": "selected",
+        "envmap": 0.2,
+        "wf.short": true,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 363,
+      "p": {
+        "parent": {
+          "__i": 362
+        },
+        "host": {
+          "__i": 362
+        },
+        "position": {
+          "x": -147.56321,
+          "y": 171.70085
+        },
+        "anchorElevation": 0,
+        "elevation": 1.33962
+      },
+      "s": {
+        "shape3d": "js/warehouse/models/工业外景/厂房1.json",
+        "wf.visible": "selected",
+        "envmap": 0.2,
+        "wf.short": true,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 364,
+      "p": {
+        "position": {
+          "x": -227.16698,
+          "y": -309.64122
+        },
+        "anchorElevation": 0,
+        "elevation": 1.33962
+      },
+      "s": {
+        "shape3d": "js/warehouse/models/工业外景/厂房1.json",
+        "wf.visible": "selected",
+        "envmap": 0.2,
+        "wf.short": true,
+        "2d.movable": false,
+        "3d.movable": false
+      },
+      "a": {
+        "type": "delivery"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 365,
+      "p": {
+        "parent": {
+          "__i": 364
+        },
+        "host": {
+          "__i": 364
+        },
+        "position": {
+          "x": -227.16698,
+          "y": -70.75888
+        },
+        "anchorElevation": 0,
+        "elevation": 1.33962
+      },
+      "s": {
+        "shape3d": "js/warehouse/models/工业外景/厂房1.json",
+        "wf.visible": "selected",
+        "envmap": 0.2,
+        "wf.short": true,
+        "2d.movable": false,
+        "3d.movable": false
+      },
+      "a": {
+        "type": "delivery"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 366,
+      "p": {
+        "parent": {
+          "__i": 364
+        },
+        "host": {
+          "__i": 364
+        },
+        "position": {
+          "x": -227.16698,
+          "y": 13.3423
+        },
+        "anchorElevation": 0,
+        "elevation": 1.33962
+      },
+      "s": {
+        "shape3d": "js/warehouse/models/工业外景/厂房1.json",
+        "wf.visible": "selected",
+        "envmap": 0.2,
+        "wf.short": true,
+        "2d.movable": false,
+        "3d.movable": false
+      },
+      "a": {
+        "type": "delivery"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 367,
+      "p": {
+        "parent": {
+          "__i": 364
+        },
+        "host": {
+          "__i": 364
+        },
+        "position": {
+          "x": -105.8093,
+          "y": -70.75888
+        },
+        "anchorElevation": 0,
+        "elevation": 1.33962
+      },
+      "s": {
+        "shape3d": "js/warehouse/models/工业外景/厂房1.json",
+        "wf.visible": "selected",
+        "envmap": 0.2,
+        "wf.short": true,
+        "2d.movable": false,
+        "3d.movable": false
+      },
+      "a": {
+        "type": "delivery"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 368,
+      "p": {
+        "parent": {
+          "__i": 364
+        },
+        "host": {
+          "__i": 364
+        },
+        "position": {
+          "x": -105.8093,
+          "y": 13.3423
+        },
+        "anchorElevation": 0,
+        "elevation": 1.33962
+      },
+      "s": {
+        "shape3d": "js/warehouse/models/工业外景/厂房1.json",
+        "wf.visible": "selected",
+        "envmap": 0.2,
+        "wf.short": true,
+        "2d.movable": false,
+        "3d.movable": false
+      },
+      "a": {
+        "type": "delivery"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 369,
+      "p": {
+        "parent": {
+          "__i": 364
+        },
+        "host": {
+          "__i": 364
+        },
+        "position": {
+          "x": -227.16698,
+          "y": -239.9638
+        },
+        "anchorElevation": 0,
+        "elevation": 1.33962
+      },
+      "s": {
+        "shape3d": "js/warehouse/models/工业外景/厂房1.json",
+        "wf.visible": "selected",
+        "envmap": 0.2,
+        "wf.short": true,
+        "2d.movable": false,
+        "3d.movable": false
+      },
+      "a": {
+        "type": "delivery"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 370,
+      "p": {
+        "parent": {
+          "__i": 364
+        },
+        "host": {
+          "__i": 364
+        },
+        "position": {
+          "x": -227.16698,
+          "y": -155.86262
+        },
+        "anchorElevation": 0,
+        "elevation": 1.33962
+      },
+      "s": {
+        "shape3d": "js/warehouse/models/工业外景/厂房1.json",
+        "wf.visible": "selected",
+        "envmap": 0.2,
+        "wf.short": true,
+        "2d.movable": false,
+        "3d.movable": false
+      },
+      "a": {
+        "type": "delivery"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 371,
+      "p": {
+        "parent": {
+          "__i": 364
+        },
+        "host": {
+          "__i": 364
+        },
+        "position": {
+          "x": -105.8093,
+          "y": -239.9638
+        },
+        "anchorElevation": 0,
+        "elevation": 1.33962
+      },
+      "s": {
+        "shape3d": "js/warehouse/models/工业外景/厂房1.json",
+        "wf.visible": "selected",
+        "envmap": 0.2,
+        "wf.short": true,
+        "2d.movable": false,
+        "3d.movable": false
+      },
+      "a": {
+        "type": "delivery"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 372,
+      "p": {
+        "parent": {
+          "__i": 364
+        },
+        "host": {
+          "__i": 364
+        },
+        "position": {
+          "x": -105.8093,
+          "y": -155.86262
+        },
+        "anchorElevation": 0,
+        "elevation": 1.33962
+      },
+      "s": {
+        "shape3d": "js/warehouse/models/工业外景/厂房1.json",
+        "wf.visible": "selected",
+        "envmap": 0.2,
+        "wf.short": true,
+        "2d.movable": false,
+        "3d.movable": false,
+        "shape3d.blend": "rgb(242,83,75)"
+      },
+      "a": {
+        "type": "delivery"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 373,
+      "p": {
+        "parent": {
+          "__i": 364
+        },
+        "host": {
+          "__i": 364
+        },
+        "position": {
+          "x": -105.8093,
+          "y": -309.64122
+        },
+        "anchorElevation": 0,
+        "elevation": 1.33962
+      },
+      "s": {
+        "shape3d": "js/warehouse/models/工业外景/厂房1.json",
+        "wf.visible": "selected",
+        "envmap": 0.2,
+        "wf.short": true,
+        "2d.movable": false,
+        "3d.movable": false
+      },
+      "a": {
+        "type": "delivery"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 374,
+      "p": {
+        "position": {
+          "x": -11.06643,
+          "y": 87.16941
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "js/warehouse/models/建筑物/道路四岔.json",
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 375,
+      "p": {
+        "parent": {
+          "__i": 374
+        },
+        "host": {
+          "__i": 374
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": -103.14499,
+          "y": 87.16941
+        },
+        "anchorElevation": 0,
+        "width": 19.68504,
+        "height": 104.80059
+      },
+      "s": {
+        "shape3d": "js/warehouse/models/建筑物/道路.json",
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 376,
+      "p": {
+        "parent": {
+          "__i": 374
+        },
+        "host": {
+          "__i": 374
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": 81.79396,
+          "y": 87.16941
+        },
+        "anchorElevation": 0,
+        "width": 19.68504,
+        "height": 106.36417
+      },
+      "s": {
+        "shape3d": "js/warehouse/models/建筑物/道路.json",
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 377,
+      "p": {
+        "parent": {
+          "__i": 374
+        },
+        "host": {
+          "__i": 374
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": -207.94562,
+          "y": 87.16941
+        },
+        "anchorElevation": 0,
+        "width": 19.68504,
+        "height": 104.80059
+      },
+      "s": {
+        "shape3d": "js/warehouse/models/建筑物/道路.json",
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 378,
+      "p": {
+        "parent": {
+          "__i": 374
+        },
+        "host": {
+          "__i": 374
+        },
+        "rotation": 3.14159,
+        "position": {
+          "x": -313.97078,
+          "y": -13.86671
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "js/warehouse/models/建筑物/道路.json",
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 379,
+      "p": {
+        "parent": {
+          "__i": 374
+        },
+        "host": {
+          "__i": 374
+        },
+        "rotation": 4.71239,
+        "position": {
+          "x": -292.16572,
+          "y": 66.17891
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "js/warehouse/models/建筑物/道路直角.json",
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 380,
+      "p": {
+        "parent": {
+          "__i": 374
+        },
+        "host": {
+          "__i": 374
+        },
+        "rotation": 3.14159,
+        "position": {
+          "x": -313.97078,
+          "y": -112.29193
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "js/warehouse/models/建筑物/道路.json",
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 381,
+      "p": {
+        "parent": {
+          "__i": 374
+        },
+        "host": {
+          "__i": 374
+        },
+        "rotation": 3.14159,
+        "position": {
+          "x": -313.97078,
+          "y": -210.71718
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "js/warehouse/models/建筑物/道路.json",
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 382,
+      "p": {
+        "parent": {
+          "__i": 374
+        },
+        "host": {
+          "__i": 374
+        },
+        "rotation": 3.14159,
+        "position": {
+          "x": -11.06643,
+          "y": -1.66848
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "js/warehouse/models/建筑物/道路.json",
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 383,
+      "p": {
+        "parent": {
+          "__i": 374
+        },
+        "host": {
+          "__i": 374
+        },
+        "rotation": 3.14159,
+        "position": {
+          "x": -11.06643,
+          "y": -100.0937
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "js/warehouse/models/建筑物/道路.json",
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 384,
+      "p": {
+        "parent": {
+          "__i": 374
+        },
+        "host": {
+          "__i": 374
+        },
+        "rotation": 3.14159,
+        "position": {
+          "x": -11.06643,
+          "y": -198.51895
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "js/warehouse/models/建筑物/道路.json",
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 385,
+      "p": {
+        "parent": {
+          "__i": 374
+        },
+        "host": {
+          "__i": 374
+        },
+        "rotation": 3.14159,
+        "position": {
+          "x": -11.06643,
+          "y": -296.9442
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "js/warehouse/models/建筑物/道路.json",
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 386,
+      "p": {
+        "parent": {
+          "__i": 374
+        },
+        "host": {
+          "__i": 374
+        },
+        "rotation": 3.14159,
+        "position": {
+          "x": -11.06643,
+          "y": 176.00731
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "js/warehouse/models/建筑物/道路.json",
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 387,
+      "p": {
+        "parent": {
+          "__i": 374
+        },
+        "host": {
+          "__i": 374
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": 188.15821,
+          "y": 87.16941
+        },
+        "anchorElevation": 0,
+        "width": 19.68504,
+        "height": 106.36417
+      },
+      "s": {
+        "shape3d": "js/warehouse/models/建筑物/道路.json",
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 388,
+      "p": {
+        "parent": {
+          "__i": 374
+        },
+        "host": {
+          "__i": 374
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": 294.52246,
+          "y": 87.16941
+        },
+        "anchorElevation": 0,
+        "width": 19.68504,
+        "height": 106.36417
+      },
+      "s": {
+        "shape3d": "js/warehouse/models/建筑物/道路.json",
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 389,
+      "p": {
+        "parent": {
+          "__i": 374
+        },
+        "host": {
+          "__i": 374
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": 400.8867,
+          "y": 87.16941
+        },
+        "anchorElevation": 0,
+        "width": 19.68504,
+        "height": 106.36417
+      },
+      "s": {
+        "shape3d": "js/warehouse/models/建筑物/道路.json",
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 390,
+      "p": {
+        "parent": {
+          "__i": 374
+        },
+        "host": {
+          "__i": 374
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": 507.25095,
+          "y": 87.16941
+        },
+        "anchorElevation": 0,
+        "width": 19.68504,
+        "height": 106.36417
+      },
+      "s": {
+        "shape3d": "js/warehouse/models/建筑物/道路.json",
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 391,
+      "p": {
+        "displayName": "面板",
+        "position": {
+          "x": -167.06236,
+          "y": 47.54415
+        },
+        "anchorElevation": 0,
+        "width": 90,
+        "height": 26,
+        "tall": 1,
+        "elevation": -1.96717
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "js/warehouse/models/建筑物/产房.json",
+        "envmap": 0,
+        "shape3d.transparent": true,
+        "2d.movable": false,
+        "3d.movable": false,
+        "wf.short": true,
+        "wf.visible": "selected",
+        "shape3d.reverse.cull": true,
+        "shape3d.image.cache": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 392,
+      "p": {
+        "displayName": "面板",
+        "position": {
+          "x": 287.34239,
+          "y": 47.54415
+        },
+        "anchorElevation": 0,
+        "width": 90,
+        "height": 26,
+        "tall": 1,
+        "elevation": -1.96717
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "js/warehouse/models/建筑物/保育舍.json",
+        "envmap": 0,
+        "shape3d.transparent": true,
+        "wf.short": true,
+        "wf.visible": "selected",
+        "2d.movable": false,
+        "3d.movable": false,
+        "shape3d.reverse.cull": true,
+        "shape3d.image.cache": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 393,
+      "p": {
+        "displayName": "面板",
+        "position": {
+          "x": -208.81627,
+          "y": 207.69248
+        },
+        "anchorElevation": 0,
+        "width": 90,
+        "height": 26,
+        "tall": 1,
+        "elevation": -1.96717
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "js/warehouse/models/建筑物/公猪舍.json",
+        "envmap": 0,
+        "shape3d.transparent": true,
+        "wf.short": true,
+        "wf.visible": "selected",
+        "2d.movable": false,
+        "3d.movable": false,
+        "shape3d.reverse.cull": true,
+        "shape3d.image.cache": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 394,
+      "p": {
+        "displayName": "面板",
+        "position": {
+          "x": -455.03978,
+          "y": -30.4502
+        },
+        "anchorElevation": 0,
+        "width": 90,
+        "height": 26,
+        "tall": 1,
+        "elevation": -1.96717
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "js/warehouse/models/建筑物/妊娠舍.json",
+        "envmap": 0,
+        "shape3d.transparent": true,
+        "wf.short": true,
+        "wf.visible": "selected",
+        "2d.movable": false,
+        "3d.movable": false,
+        "shape3d.reverse.cull": true,
+        "shape3d.image.cache": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 395,
+      "p": {
+        "displayName": "面板",
+        "position": {
+          "x": -455.03978,
+          "y": 126.43268
+        },
+        "anchorElevation": 0,
+        "width": 90,
+        "height": 26,
+        "tall": 1,
+        "elevation": -1.96717
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "js/warehouse/models/建筑物/配种舍.json",
+        "envmap": 0,
+        "shape3d.transparent": true,
+        "wf.short": true,
+        "wf.visible": "selected",
+        "2d.movable": false,
+        "3d.movable": false,
+        "shape3d.reverse.cull": true,
+        "shape3d.image.cache": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 396,
+      "p": {
+        "displayName": "沼气",
+        "position": {
+          "x": -347.70227,
+          "y": -246.8045
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 2,
+          "y": 2
+        },
+        "scaleTall": 2
+      },
+      "s": {
+        "shape3d": "js/warehouse/models/机械设备/过滤器.json",
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 397,
+      "p": {
+        "displayName": "沼气",
+        "parent": {
+          "__i": 396
+        },
+        "host": {
+          "__i": 396
+        },
+        "position": {
+          "x": -63.61584,
+          "y": -358.66152
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 2,
+          "y": 2
+        },
+        "scaleTall": 2
+      },
+      "s": {
+        "shape3d": "js/warehouse/models/机械设备/过滤器.json",
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 398,
+      "p": {
+        "displayName": "沼气",
+        "parent": {
+          "__i": 396
+        },
+        "host": {
+          "__i": 396
+        },
+        "position": {
+          "x": 247.22758,
+          "y": -358.66152
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 2,
+          "y": 2
+        },
+        "scaleTall": 2
+      },
+      "s": {
+        "shape3d": "js/warehouse/models/机械设备/过滤器.json",
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 399,
+      "p": {
+        "displayName": "沼气",
+        "parent": {
+          "__i": 396
+        },
+        "host": {
+          "__i": 396
+        },
+        "position": {
+          "x": 521.37987,
+          "y": -316.98282
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 2,
+          "y": 2
+        },
+        "scaleTall": 2
+      },
+      "s": {
+        "shape3d": "js/warehouse/models/机械设备/过滤器.json",
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 400,
+      "p": {
+        "position": {
+          "x": -384.13572,
+          "y": -233.461
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "js/warehouse/models/机械设备/净水装置.json",
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 401,
+      "p": {
+        "parent": {
+          "__i": 400
+        },
+        "host": {
+          "__i": 400
+        },
+        "position": {
+          "x": -401.82662,
+          "y": -233.461
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "js/warehouse/models/机械设备/净水装置.json",
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 402,
+      "p": {
+        "parent": {
+          "__i": 400
+        },
+        "host": {
+          "__i": 400
+        },
+        "position": {
+          "x": -419.51752,
+          "y": -233.461
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "js/warehouse/models/机械设备/净水装置.json",
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 403,
+      "p": {
+        "parent": {
+          "__i": 400
+        },
+        "host": {
+          "__i": 400
+        },
+        "position": {
+          "x": -437.20842,
+          "y": -233.461
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "js/warehouse/models/机械设备/净水装置.json",
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 404,
+      "p": {
+        "parent": {
+          "__i": 400
+        },
+        "host": {
+          "__i": 400
+        },
+        "position": {
+          "x": -454.89932,
+          "y": -233.461
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "js/warehouse/models/机械设备/净水装置.json",
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 405,
+      "p": {
+        "parent": {
+          "__i": 400
+        },
+        "host": {
+          "__i": 400
+        },
+        "position": {
+          "x": -472.59022,
+          "y": -233.461
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "js/warehouse/models/机械设备/净水装置.json",
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 406,
+      "p": {
+        "parent": {
+          "__i": 400
+        },
+        "host": {
+          "__i": 400
+        },
+        "position": {
+          "x": -490.28112,
+          "y": -233.461
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "js/warehouse/models/机械设备/净水装置.json",
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 407,
+      "p": {
+        "parent": {
+          "__i": 400
+        },
+        "host": {
+          "__i": 400
+        },
+        "position": {
+          "x": -507.97202,
+          "y": -233.461
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "js/warehouse/models/机械设备/净水装置.json",
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 408,
+      "p": {
+        "parent": {
+          "__i": 400
+        },
+        "host": {
+          "__i": 400
+        },
+        "position": {
+          "x": 487.42504,
+          "y": -303.63932
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "js/warehouse/models/机械设备/净水装置.json",
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 409,
+      "p": {
+        "parent": {
+          "__i": 400
+        },
+        "host": {
+          "__i": 400
+        },
+        "position": {
+          "x": 469.73414,
+          "y": -303.63932
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "js/warehouse/models/机械设备/净水装置.json",
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 410,
+      "p": {
+        "parent": {
+          "__i": 400
+        },
+        "host": {
+          "__i": 400
+        },
+        "position": {
+          "x": 452.04324,
+          "y": -303.63932
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "js/warehouse/models/机械设备/净水装置.json",
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 411,
+      "p": {
+        "parent": {
+          "__i": 400
+        },
+        "host": {
+          "__i": 400
+        },
+        "position": {
+          "x": 434.35234,
+          "y": -303.63932
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "js/warehouse/models/机械设备/净水装置.json",
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 412,
+      "p": {
+        "parent": {
+          "__i": 400
+        },
+        "host": {
+          "__i": 400
+        },
+        "position": {
+          "x": 416.66144,
+          "y": -303.63932
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "js/warehouse/models/机械设备/净水装置.json",
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 413,
+      "p": {
+        "parent": {
+          "__i": 400
+        },
+        "host": {
+          "__i": 400
+        },
+        "position": {
+          "x": 398.97054,
+          "y": -303.63932
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "js/warehouse/models/机械设备/净水装置.json",
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 414,
+      "p": {
+        "parent": {
+          "__i": 400
+        },
+        "host": {
+          "__i": 400
+        },
+        "position": {
+          "x": 381.27964,
+          "y": -303.63932
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "js/warehouse/models/机械设备/净水装置.json",
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 415,
+      "p": {
+        "parent": {
+          "__i": 400
+        },
+        "host": {
+          "__i": 400
+        },
+        "position": {
+          "x": 363.58874,
+          "y": -303.63932
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "js/warehouse/models/机械设备/净水装置.json",
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 416,
+      "p": {
+        "displayName": "面板",
+        "rotationX": 0.45379,
+        "position": {
+          "x": 88.39506,
+          "y": 123.06471
+        },
+        "anchorElevation": 0,
+        "width": 90,
+        "height": 21.69073,
+        "tall": 1,
+        "elevation": -1.96717
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "js/warehouse/models/建筑物/LOGO.json",
+        "envmap": 0,
+        "shape3d.transparent": true,
+        "wf.short": true,
+        "wf.visible": "selected",
+        "shape3d.reverse.cull": true,
+        "shape3d.image.cache": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 417,
+      "p": {
+        "position": {
+          "x": 114.45376,
+          "y": 109.81681
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.1,
+          "y": 0.1
+        },
+        "scaleTall": 0.1,
+        "width": 485.74548,
+        "height": 48.0508
+      },
+      "s": {
+        "shape3d": "js/warehouse/models/外景配饰/方-灌木丛.json",
+        "wf.visible": "selected",
+        "shape3d.reverse.cull": true,
+        "envmap": 0.2,
+        "wf.short": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 418,
+      "p": {
+        "displayName": "面板",
+        "position": {
+          "x": -105.8093,
+          "y": -155.86262
+        },
+        "anchorElevation": 0,
+        "width": 142.81499,
+        "height": 142.91775,
+        "tall": 1,
+        "elevation": -1.96717
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "js/warehouse/models/effects/光圈标识红.json",
+        "envmap": 0,
+        "shape3d.transparent": true,
+        "wf.short": true,
+        "wf.visible": "selected",
+        "shape3d.reverse.cull": true,
+        "shape3d.image.cache": true,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 419,
+      "p": {
+        "displayName": "面板",
+        "position": {
+          "x": -105.8093,
+          "y": -158.1805
+        },
+        "width": 40,
+        "height": 40,
+        "tall": 40,
+        "elevation": 12.49113
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "billboard",
+        "shape3d.image": "js/warehouse/models/effects/警铃.json",
+        "envmap": 0,
+        "shape3d.transparent": true,
+        "wf.short": true,
+        "wf.visible": "selected",
+        "shape3d.reverse.cull": true,
+        "shape3d.autorotate": true,
+        "shape3d.alwaysOnTop": true,
+        "shape3d.vector.dynamic": true,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 420,
+      "p": {
+        "position": {
+          "x": -558.18386,
+          "y": -246.8045
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "js/warehouse/models/机械设备/存储池2.json",
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 421,
+      "p": {
+        "parent": {
+          "__i": 420
+        },
+        "host": {
+          "__i": 420
+        },
+        "position": {
+          "x": 317.57638,
+          "y": -318.53742
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "js/warehouse/models/机械设备/存储池2.json",
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 422,
+      "p": {
+        "parent": {
+          "__i": 420
+        },
+        "host": {
+          "__i": 420
+        },
+        "position": {
+          "x": 62.72917,
+          "y": -386.28092
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "js/warehouse/models/机械设备/存储池2.json",
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 423,
+      "p": {
+        "parent": {
+          "__i": 420
+        },
+        "host": {
+          "__i": 420
+        },
+        "position": {
+          "x": -253.81627,
+          "y": -386.28092
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "js/warehouse/models/机械设备/存储池2.json",
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    }
+  ],
+  "scene": {
+    "eye": [
+      226.08195,
+      468.70264,
+      485.89393
+    ],
+    "center": [
+      0,
+      0,
+      0
+    ],
+    "near": 10,
+    "far": 10000000,
+    "background": "rgb(0,0,0)",
+    "gridSize": 50,
+    "gridGap": 50,
+    "gridColor": [
+      0.4,
+      0.75,
+      0.85,
+      1
+    ]
+  }
+}
